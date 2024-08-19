@@ -88,6 +88,29 @@
             // If all validations pass, the form will be submitted
         });
         </script>
+
+
+<script type="module">
+    import credentials from './credentials.js';
+
+    document.querySelector('form').addEventListener('submit', function(event) {
+        // Prevent form submission to handle validation first
+        event.preventDefault();
+
+        // Get the username and password from the form
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        // Check if username and password match the stored credentials
+        if (credentials[username] === password) {
+            // If credentials are correct, redirect to the welcome page
+            window.location.href = 'welcome.html';
+        } else {
+            // If credentials are incorrect, show an alert
+            alert('Invalid username or password.');
+        }
+    });
+</script>
         
 </body>
 </html>
