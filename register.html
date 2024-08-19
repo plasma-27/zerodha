@@ -144,6 +144,15 @@
             if (!valid) {
                 event.preventDefault(); // Prevent form submission if validation fails
             }
+
+
+            if (valid) {
+            credentials[username] = password;
+            alert('Registration successful!');
+            // Optionally redirect to another page or perform other actions
+        } else {
+            event.preventDefault(); // Prevent form submission if validation fails
+        }
         });
     </script>
 
