@@ -1,0 +1,79 @@
+.container-fluid {
+    height: 60px;
+  }
+
+  .navbar {
+    background-color: #fff; /* Change this to white */
+    border-color: #e7e7e7; /* Optional: Change the border color to match the new background */
+  }
+
+  .navbar .navbar-brand, .navbar .navbar-nav > li > a {
+    color: #000; /* Change text color to black */
+  }
+
+  .navbar .navbar-brand:hover, .navbar .navbar-nav > li > a:hover {
+    color: #000; /* Ensure hover state text color is also black */
+  }
+
+  .logo-img {
+    height: 40px; /* Adjust this to make the logo smaller */
+  }
+  
+  .why-us-section {
+    margin-bottom: 20px;
+  }
+
+  .ecosystem-image {
+width: 620px; /* Set the width to 620px */
+height: 612px; /* Set the height to 612px */
+object-fit: cover; /* Ensures the image maintains aspect ratio and fits the dimensions */
+  }
+.pricing-img {
+  width: 100px;
+  height: 73px;
+  margin-right: 10px;
+}
+
+.img-margin {
+          margin-right: 20px;
+      }
+      .space-top {
+          margin-top: 20px;
+      }
+      .icon-arrow-right {
+          margin-left: 5px;
+      }
+
+      .mini-container {
+        text-align: center; /* Center text within the container */
+        padding: 50px 0; /* Add padding to position it nicely on the page */
+      }
+  
+      .button {
+        background-color: #387ed1;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        display: inline-block;
+      }
+  
+      .button:hover {
+        background-color: black;
+        color: white;
+      }
+  
+      /* Ensure the container takes full height */
+      .full-height {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+
+
+
